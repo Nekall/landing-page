@@ -1,4 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+section{
+  padding: 50px 150px;
+}
+
+hr{
+  margin: 10px 10%;
+  opacity: 0.3;
+}
+
+/*====== LOGO ======*/
+
+nav{
+  background-color: #828282;
+  height: 100px;
+}
+
+ul{
+  float: right;
+  height: 100%;
+  align-content: center;
+  display: grid;
+}
+
+li{
+  display: inline-block;
+  margin-right: 10px;
+  text-align: right;
+}
+
+li>a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo{
+  width: 250px;
+}
+
+/*====== SECTION 1 ======*/
+
+.section-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 400px;
+  grid-gap: 20px;
+  text-align: center;
+}
+
+.button-cta{
+  border: solid 1px #000000;
+  padding: 12px 18px;
+}
+
+.button-cta:hover{
+  cursor: pointer;
+}
+
+video{
+  width: 80%;
+}
+
+/*====== SECTION 2 ======*/
+
+.section-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+}
+
+.section-2>img{
+  width: 100%;
+}
+
+/*====== SECTION 3 ======*/
+
+.section-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 25px;
+}
+
+/*====== SECTION 4 ======*/
+
+.section-4{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.section-4>div{
+  display: flex;
+}
+
+.avatar{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/*====== FOOTER ======*/
+footer{
+  display: grid;
+  align-content: center;
+  text-align: center;
+  background-color: #828282;
+  height: 100px;
 }
